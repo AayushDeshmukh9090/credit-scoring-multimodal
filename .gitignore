@@ -1,0 +1,15 @@
+# Large data files
+data/raw/
+data/processed/
+models/
+
+# Python
+__pycache__/
+*.pkl
+*.parquet
+*.h5
+*.keras
+*.csv
+
+#jupyter
+.ipynb_checkpoints/
