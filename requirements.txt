@@ -1,7 +1,7 @@
 pandas
 numpy
 scikit-learn
-tensorflow
+tensorflow-cpu
 fastapi
 uvicorn
 streamlit
@@ -11,4 +11,3 @@ matplotlib
 seaborn
 pydantic
 python-multipart
- 
