@@ -7,3 +7,8 @@ uvicorn
 streamlit
 pyarrow
 requests
+matplotlib
+seaborn
+pydantic
+python-multipart
+ 
