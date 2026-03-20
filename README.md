@@ -9,7 +9,6 @@ A dual-branch neural network that predicts loan default probability by fusing nu
 | Frontend (Streamlit) | [credit-scoring-multimodal-4.streamlit.app](https://credit-scoring-multimodal-4.streamlit.app) |
 | API Documentation (FastAPI) | [credit-scoring-multimodal-4.onrender.com/docs](https://credit-scoring-multimodal-4.onrender.com/docs) |
  
-> **Note:** The API is hosted on Render's free tier and may take 30–60 seconds to wake up on the first request after a period of inactivity.
  
 ---
  
@@ -137,6 +136,7 @@ best_model.keras
 FastAPI (Render) ← Streamlit (Streamlit Cloud)
 ```
  
-**Key design decision:** `fit_transform()` is called only on training data. The scaler and encoders are saved as `.pkl` files and loaded at API startup. Test data and API inference use `transform()` only — preventing data leakage.
+
+
  
 ---
