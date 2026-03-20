@@ -4,10 +4,11 @@ scikit-learn==1.8.0
 tensorflow-cpu
 fastapi
 uvicorn
-streamlit
+streamlit==1.41.0
+protobuf==4.25.3
 pyarrow
 requests
-matplotlib
-seaborn
 pydantic
 python-multipart
+matplotlib
+seaborn
