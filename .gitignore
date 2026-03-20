@@ -1,14 +1,14 @@
 # Large data files
 data/raw/
 data/processed/
-models/
+#models/
 
 # Python
 __pycache__/
-*.pkl
+#*.pkl
 *.parquet
 *.h5
-*.keras
+#*.keras
 *.csv
 
 #jupyter
